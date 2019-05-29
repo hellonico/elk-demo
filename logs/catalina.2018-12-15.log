@@ -1,0 +1,33 @@
+14-Nov-2018 14:09:39.657 SEVERE [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at /opt/tomcat/wpp/temp
+14-Nov-2018 14:09:39.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.6
+14-Nov-2018 14:09:39.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2016 20:15:31 UTC
+14-Nov-2018 14:09:39.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.6.0
+14-Nov-2018 14:09:39.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Nov-2018 14:09:39.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.9.1.el7.x86_64
+14-Nov-2018 14:09:39.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Nov-2018 14:09:39.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_102/jre
+14-Nov-2018 14:09:39.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+14-Nov-2018 14:09:39.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Nov-2018 14:09:39.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/wpp
+14-Nov-2018 14:09:39.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/wpp
+14-Nov-2018 14:09:39.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/wpp/conf/logging.properties
+14-Nov-2018 14:09:39.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2018 14:09:39.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dwebportalplus.base.dir=/appl/tomcat/wpp
+14-Nov-2018 14:09:39.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlog.base.dir=/var/log/otc/tomcat/wpp
+14-Nov-2018 14:09:39.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.Arrays.useLegacyMergeSort=true
+14-Nov-2018 14:09:39.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2018 14:09:39.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2018 14:09:39.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/wpp
+14-Nov-2018 14:09:39.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/wpp
+14-Nov-2018 14:09:39.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/wpp/temp
+14-Nov-2018 14:09:39.923 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /appl/markit/api/lib:/appl/lpsolve/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+14-Nov-2018 14:09:40.010 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+14-Nov-2018 14:09:40.022 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Nov-2018 14:09:40.023 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Nov-2018 14:09:40.024 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Nov-2018 14:09:40.024 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 368 ms
+14-Nov-2018 14:09:40.045 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+14-Nov-2018 14:09:40.045 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.6
+14-Nov-2018 14:09:40.052 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8090]
+14-Nov-2018 14:09:40.062 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+14-Nov-2018 14:09:40.066 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 41 ms

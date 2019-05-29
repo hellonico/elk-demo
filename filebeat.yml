@@ -1,0 +1,11 @@
+filebeat.inputs:
+- type: log
+  paths:
+    - /var/logs/*.log
+  fields:
+    docker: true
+  fields_under_root: true
+output.elasticsearch:
+  enabled: false
+output.logstash:
+  hosts: ["172.16.4.154:5044"]
